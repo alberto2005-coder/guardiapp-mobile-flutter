@@ -1,0 +1,44 @@
+name: flutter_widgets_guardiapp
+description: "A new Flutter project."
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.3
+  intl: ^0.20.2
+  table_calendar: ^3.2.0
+  provider: ^6.1.5+1
+  uuid: ^4.5.2
+  flutter_localizations:
+    sdk: flutter
+  shared_preferences: ^2.5.4
+  shimmer: ^3.0.0
+  flutter_staggered_animations: ^1.1.1
+  day_night_switcher: ^0.2.0+1
+
+
+  fl_chart: ^0.69.2
+  pdf: ^3.11.1
+  printing: ^5.13.2
+  flutter_slidable: ^3.1.0
+  path_provider: ^2.1.5
+  file_picker: ^10.3.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/backgrounds/
