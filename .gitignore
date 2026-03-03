@@ -1,0 +1,69 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configurations and tasks you actually
+# want to keep. Only exclude settings and workspace-specific files.
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.vscode/ipch/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/pubspec.lock
+
+# Android related
+**/android/**/generated/
+**/android/gen/
+**/android/out/
+**/android/app/google-services.json
+.gradle/
+build/
+local.properties
+
+# iOS/macOS related
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Runner/Generated.xcconfig
+**/ios/Runner/Icons.xcassets/AppIcon.appiconset/*.png
+**/ios/Runner/Icons.xcassets/LaunchImage.imageset/*.png
+**/macos/Flutter/ephemeral/
+**/macos/Runner/Generated.xcconfig
+**/macos/Runner/Icons.xcassets/AppIcon.appiconset/*.png
+**/macos/Runner/Icons.xcassets/LaunchImage.imageset/*.png
+Pods/
+DerivedData/
+*.moved-aside
+*.xcuserstate
+
+# Custom project-specific exclusions
+.pub_cache/
+_temp/
+active_roots/
+hosted/
+hosted-hashes/
+.metadata
